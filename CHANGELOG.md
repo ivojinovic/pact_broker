@@ -2,6 +2,14 @@ Do this to generate your change history
 
     $ git log --pretty=format:'  * %h - %s (%an, %ad)' vX.Y.Z..HEAD
 
+#### 1.15.0 (2017-03-06)
+  * b1c8f9f - Merge pull request #1 from ivojinovic/add-pacticipant-versions-endpoint (Ivan Vojinovic, Mon Mar 6 12:05:57 2017 -0500)
+  * 4849d43 - Adds versions decorator spec (Ivan Vojinovic, Wed Feb 22 00:00:46 2017 -0500)
+  * f25b5f6 - Adds pacticipant versions endpoint (Ivan Vojinovic, Tue Feb 21 21:15:39 2017 -0500)
+  * ac801b8 - Merge pull request #79 from mefellows/docs/hosted-broker (Beth Skurrie, Sun Feb 5 14:11:28 2017 +1100)
+  * 0920e45 - Add hosted pact broker to usage section in README (Matt Fellows, Sat Feb 4 11:28:36 2017 +1100)
+  * c773d10 - Update README.md (Beth Skurrie, Thu Feb 2 10:49:17 2017 +1100)
+
 #### 1.14.0 (2017-01-30)
 * 83ac7a5 - Adds ability to delete tags (Ivan Vojinovic, Fri Jan 27 15:19:51 2017 -0500)
 
