@@ -2,6 +2,10 @@ Do this to generate your change history
 
     $ git log --pretty=format:'  * %h - %s (%an, %ad)' vX.Y.Z..HEAD
 
+#### 1.15.1 (2017-03-08)
+  * 97efb01 - Merge pull request #2 from ivojinovic/corrects-pacticipant-versions-ordering (Ivan Vojinovic, Wed Mar 8 00:32:07 2017 -0500)
+  * 34a5f70 - Corrects ordering of versions for pacticipants "versions" endpoint (Ivan Vojinovic, Wed Mar 8 00:24:46 2017 -0500)
+
 #### 1.15.0 (2017-03-06)
   * b1c8f9f - Merge pull request #1 from ivojinovic/add-pacticipant-versions-endpoint (Ivan Vojinovic, Mon Mar 6 12:05:57 2017 -0500)
   * 4849d43 - Adds versions decorator spec (Ivan Vojinovic, Wed Feb 22 00:00:46 2017 -0500)
