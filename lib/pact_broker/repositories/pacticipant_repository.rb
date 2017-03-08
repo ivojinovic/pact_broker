@@ -25,6 +25,7 @@ module PactBroker
           .select(:versions__id, :versions__number, :versions__pacticipant_id, :versions__order, :versions__created_at, :versions__updated_at)
           .join(:pacticipants, {id: :pacticipant_id})
           .where(name_like(:name, name))
+          .reverse_order(:versions__order)
       end
 
       def find_by_name_or_create name
